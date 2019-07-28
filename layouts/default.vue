@@ -1,61 +1,24 @@
 <template>
   <v-app dark>
-    <v-navigation-drawer
-      v-model="drawer"
-      :mini-variant="miniVariant"
-      :clipped="clipped"
-      fixed
-      app
-    >
-      <v-list>
-        <v-list-item
-          v-for="(item, i) in items"
-          :key="i"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
     <v-app-bar
       :clipped-left="clipped"
       fixed
       app
+      color="indigo lighten-5"
     >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-btn
-        icon
-        @click.stop="miniVariant = !miniVariant"
-      >
-        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon>mdi-application</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="fixed = !fixed"
-      >
-        <v-icon>mdi-minus</v-icon>
-      </v-btn>
-      <v-toolbar-title v-text="title" />
-      <v-spacer />
-      <v-btn
-        icon
-        @click.stop="rightDrawer = !rightDrawer"
-      >
-        <v-icon>mdi-menu</v-icon>
-      </v-btn>
+      <nuxt-link to="/" v-text="title"></nuxt-link>
+      <span style="margin:0 0 0 auto">
+        <a href="https://github.com/0daryo"
+        target="_blank"
+        title="0daryorのGitHubページを開く"
+        >
+      <img height="20px" src="~/assets/images/GitHub_Logo.png">
+      </a>
+      <a href="https://twitter.com/0daryo?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @0daryo</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+      <a href="https://qiita.com/0daryo" target="_blank" style="background-color:white;">
+            <img height="20px" src="~/assets/images/qiita-favicon.png">
+      </a>
+      </span>
     </v-app-bar>
     <v-content>
       <v-container>
@@ -110,7 +73,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: '0daryo\'s portfolio'
+      title: '0daryo'
     }
   }
 }
