@@ -25,13 +25,13 @@
         <h2>Languages</h2>
         <ul>
           <li>
-            Java 2017/9~
+            Java
           </li>
           <li>
-            javascript 2018/6~
+            javascript
           </li>
           <li>
-            Golang 2019/3~
+            Golang
           </li>
         </ul>
       </div>
@@ -40,16 +40,16 @@
         <h2>Other Experiences</h2>
         <ul>
           <li>
-            Spring Boot 2018/4~
+            Spring Boot
           </li>
           <li>
-            Cento OS 2018/7~
+            Cento OS
           </li>
           <li>
-            GCP 2019/3~
+            GCP
           </li>
           <li>
-            Kubernetes 2019/3~
+            Kubernetes
           </li>
         </ul>
       </div>
