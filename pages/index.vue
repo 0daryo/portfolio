@@ -1,6 +1,8 @@
 <template>
   <v-layout>
     <v-flex class="text-center">
+      <h2>0daryo</h2>
+      <br>
       <div>
         <h2>Background</h2>
         <ul>
@@ -20,7 +22,7 @@
       </div>
       <br>
       <div>
-        <h2>Langueges</h2>
+        <h2>Languages</h2>
         <ul>
           <li>
             Java 2017/9~
@@ -38,6 +40,9 @@
         <h2>Other Experiences</h2>
         <ul>
           <li>
+            Spring Boot 2018/4~
+          </li>
+          <li>
             Cento OS 2018/7~
           </li>
           <li>
@@ -51,7 +56,6 @@
       <br>
       <h2>Works</h2>
       <v-dialog
-      v-model="dialog"
       width="80%"
       height="80%"
     >
@@ -74,7 +78,7 @@
         </v-card-title>
 
         <v-card-text>
-          <a href="https://cinemawith.app/" target="_blank"><img src="~/assets/images/cinemawith.png" width="40%" style="float: left;">
+          <a href="https://cinemawith.app/" target="_blank"><img src="~/assets/images/cinemawith.png" width="40%" hight="80%" style="float: left;">
           </a>
           <div>
             <h3>上映中の映画を通じたマッチングサービス</h3>
@@ -108,6 +112,7 @@
             Qiitaで読む
             <img height="30px" src="~/assets/images/qiita-favicon.png">
           </a>
+
         </v-card-actions>
       </v-card>
     </v-dialog>

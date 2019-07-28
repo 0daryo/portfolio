@@ -6,7 +6,7 @@
       app
       color="indigo lighten-5"
     >
-      <nuxt-link to="/" v-text="title"></nuxt-link>
+      <nuxt-link to="/"><img height="20px" src="~/assets/images/squirrel.png"></nuxt-link>
       <span style="margin:0 0 0 auto">
         <a href="https://github.com/0daryo"
         target="_blank"
@@ -17,6 +17,9 @@
       <a href="https://twitter.com/0daryo?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @0daryo</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
       <a href="https://qiita.com/0daryo" target="_blank" style="background-color:white;">
             <img height="20px" src="~/assets/images/qiita-favicon.png">
+      </a>
+      <a href="https://0daryo.hatenablog.com/" target="_blank">
+            <img height="20px" src="~/assets/images/hatenablog-logotype.svg">
       </a>
       </span>
     </v-app-bar>
