@@ -43,7 +43,7 @@
             Spring Boot
           </li>
           <li>
-            Cento OS
+            CentOS
           </li>
           <li>
             GCP
