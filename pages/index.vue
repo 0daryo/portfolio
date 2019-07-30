@@ -10,13 +10,13 @@
             Kyoto University: Faculty of Letter 2014/4~2018/3
           </li>
           <li>
-            Seattle Consulting.inc: System Enginner 2018/4~2019/3
+            Seattle Consulting.inc: System Engineer 2018/4~2019/3
           </li>
           <li>
             Omnis.inc: Server Side Engineer 2019/3~
           </li>
           <li>
-            ZERO TO ONE: Web Engineer as a Side job 2019/3~2019/7
+            ZERO TO ONE: Web Engineer as a Side Job 2019/3~2019/7
           </li>
         </ul>
       </div>
