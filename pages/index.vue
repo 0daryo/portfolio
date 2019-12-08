@@ -32,6 +32,7 @@
         </ul>
       </div>
       <br />
+      <br />
       <h2>Works</h2>
       <v-dialog width="80%" height="80%">
         <template v-slot:activator="{ on }">
@@ -63,6 +64,7 @@
         </v-card>
       </v-dialog>
       <br />
+      <br />
       <v-dialog width="80%" height="80%">
         <template v-slot:activator="{ on }">
           <v-btn color="red lighten-2" dark v-on="on">kustomize-lint</v-btn>
@@ -73,7 +75,7 @@
 
           <v-card-text>
             <div>
-              <h3>主に業務用のkustomize.yamlをvalidationするツール</h3>
+              <h3>主に業務用のkustomization.yamlをvalidationするツール</h3>
               <br />
               <h3>使用技術</h3>
               <ul>
@@ -92,6 +94,7 @@
           </v-card-actions>
         </v-card>
       </v-dialog>
+      <br />
       <br />
       <v-dialog width="80%" height="80%">
         <template v-slot:activator="{ on }">
