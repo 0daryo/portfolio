@@ -2,9 +2,14 @@
 
 > portfolio using nuxt.js and firebase
 
+## deploy step
+
+1. yarn generate
+2. firebase deploy
+
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
