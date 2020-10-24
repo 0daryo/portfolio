@@ -1,7 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
-  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -15,7 +14,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: "stylesheet", href:"https://use.fontawesome.com/releases/v5.6.1/css/all.css"}
+      { rel: "stylesheet", href: "https://use.fontawesome.com/releases/v5.6.1/css/all.css" }
     ]
   },
   /*
@@ -35,7 +34,7 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  devModules: [
+  buildModules: [
     '@nuxtjs/vuetify',
   ],
   /*
@@ -73,5 +72,9 @@ export default {
     */
     extend(config, ctx) {
     }
-  }
+  },
+  generate: {
+    dir: 'dist'
+  },
+  target: 'static'
 }

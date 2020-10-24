@@ -6,10 +6,11 @@
       <div>
         <h2>Background</h2>
         <ul>
-          <li>Kyoto University: Faculty of Letter 2014/4~2018/3</li>
-          <li>Seattle Consulting.inc: System Engineer 2018/4~2019/3</li>
-          <li>Omnis.inc: Server Side Engineer 2019/3~</li>
+          <li>CyberAgent abemaTV: Server Side Engineer 2020/10~</li>
+          <li>Omnis.inc: Server Side Engineer 2019/3~2020/9</li>
           <li>ZERO TO ONE: Web Engineer as a Side Job 2019/3~2019/7</li>
+          <li>Seattle Consulting.inc: System Engineer 2018/4~2019/3</li>
+          <li>Kyoto University: Faculty of Letter 2014/4~2018/3</li>
         </ul>
         <a href="https://0daryo.github.io/job-description/" target="_blank">Detail Job Description</a>
       </div>
