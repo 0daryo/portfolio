@@ -15,8 +15,8 @@
       <img height="20px" src="~/assets/images/GitHub_Logo.png">
       </a>
       <a href="https://twitter.com/0daryo?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @0daryo</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-      <a href="https://qiita.com/0daryo" target="_blank" style="background-color:white;">
-            <img height="20px" src="~/assets/images/qiita-favicon.png">
+      <a href="https://qiita.com/0daryo" target="_blank">
+            <img height="22px" src="~/assets/images/qiita-favicon.png">
       </a>
       <a href="https://0daryo.hatenablog.com/" target="_blank">
             <img height="20px" src="~/assets/images/hatenablog-logotype.svg">
